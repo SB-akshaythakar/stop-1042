@@ -4,7 +4,7 @@ x-stoplight:
 info:
   title: Test
   version: '1.0'
-  description: This is branch 111
+  description: This is branch 1
 servers:
   - url: 'http://localhost:3000'
 paths:
