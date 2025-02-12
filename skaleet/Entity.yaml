@@ -1,0 +1,23 @@
+title: Entity
+x-stoplight:
+  id: 2g8aub9325z29
+type: object
+required:
+  - code
+  - name
+properties:
+  code:
+    $ref: ./EntityCode.yaml
+    x-stoplight:
+      id: s614w5vlufhws
+  name:
+    type: string
+    description: Entity name
+    maxLength: 256
+    minLength: 1
+    x-stoplight:
+      id: 2qsrj32dmjh7w
+  parentCode:
+    $ref: ./EntityCode.yaml
+    x-stoplight:
+      id: djt5pj59hq4h9

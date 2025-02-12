@@ -1,0 +1,6 @@
+title: VelocityRuleId
+x-stoplight:
+  id: ioivc3ujvv5eq
+type: integer
+example: 1
+description: ID of a Velocity rule.

@@ -1,0 +1,8 @@
+title: GeneratedTemplateDocumentStatus
+x-stoplight:
+  id: 0s86xhvzp0utm
+enum:
+  - GENERATED
+  - FINALIZED
+  - AVAILABLE
+description: Status of the generated template document

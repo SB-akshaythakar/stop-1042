@@ -1,0 +1,10 @@
+title: ConflictError
+x-stoplight:
+  id: vyq1p3zqa456h
+oneOf:
+  - $ref: ./Error.yaml
+    x-stoplight:
+      id: wc0iodfvvyrfc
+  - $ref: ./EmbeddedError.yaml
+    x-stoplight:
+      id: 4ucmnrg3oxuqd

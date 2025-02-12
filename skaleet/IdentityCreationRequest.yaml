@@ -1,0 +1,38 @@
+title: IdentityCreationRequest
+x-stoplight:
+  id: 8uybszq7002ef
+type: object
+description: An Identity creation form
+required:
+  - legalType
+  - kyc
+properties:
+  legalType:
+    $ref: ./LegalType.yaml
+    x-stoplight:
+      id: ubq05uetxzd18
+  kyc:
+    $ref: ./Kyc.yaml
+    x-stoplight:
+      id: 1xtbkchekg7l9
+  profileId:
+    $ref: ./ProfileId.yaml
+    x-stoplight:
+      id: bfbiafg201tun
+  externalId:
+    $ref: ./ExternalId.yaml
+    x-stoplight:
+      id: 28m98z8iips73
+  distributorId:
+    $ref: ./DistributorId.yaml
+    x-stoplight:
+      id: x9nw7suv40zqf
+  relations:
+    $ref: ./CreateIdentityRelationCollection.yaml
+    x-stoplight:
+      id: 8b97wfa1juxpc
+  entities:
+    type: object
+    $ref: ./CreationEntityCodes.yaml
+    x-stoplight:
+      id: 384ab0kib59jm

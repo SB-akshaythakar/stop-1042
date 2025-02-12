@@ -1,0 +1,25 @@
+title: EmbeddedError
+x-stoplight:
+  id: eyx8l8v5qgoak
+type: object
+required:
+  - success
+  - error
+properties:
+  success:
+    type: boolean
+    description: Always false
+    x-stoplight:
+      id: iiu4ypzvw3du4
+  error:
+    $ref: ./Error.yaml
+    x-stoplight:
+      id: 5k2xgy0ba0xlw
+example:
+  success: false
+  error:
+    code: 76000
+    message: The request could not be processed because the current version does not match the specified version
+    error:
+      code: 12300
+      message: The actual error message that was embedded

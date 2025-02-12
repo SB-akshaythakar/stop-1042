@@ -1,0 +1,21 @@
+title: IdentityCollection
+x-stoplight:
+  id: pylpzmq468385
+description: Sorted and paginated list of Identities
+allOf:
+  - $ref: ./PaginatedCollection.yaml
+    x-stoplight:
+      id: 5admdo2nwvr2e
+  - type: object
+    properties:
+      items:
+        type: array
+        description: collection of Identities
+        items:
+          $ref: ./Identity.yaml
+          x-stoplight:
+            id: op52tn7x0bize
+        x-stoplight:
+          id: pry2kiglo56qm
+    x-stoplight:
+      id: wtc5st96psnlp

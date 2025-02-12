@@ -1,0 +1,60 @@
+title: GeneratedTemplateDocumentCollectionItem
+x-stoplight:
+  id: oq7hmxrbtj21p
+type: object
+description: Generated template document information without content file. You can get the content from the link given.
+required:
+  - id
+  - templateId
+  - status
+  - variableValues
+  - generationRequestedAt
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: wfje4uxobt7fx
+    description: Id of generated template document
+  templateId:
+    type: string
+    x-stoplight:
+      id: tcagpi3mjcyhd
+    description: Template id of generated template document
+  identityId:
+    type: string
+    x-stoplight:
+      id: 4jeqro7wog1u0
+    description: Identity id of generated template document
+  initiatorId:
+    type: string
+    x-stoplight:
+      id: 6vpohtwf3adi3
+    description: Initiator id of generated template document
+  operation:
+    type: string
+    x-stoplight:
+      id: zwftq0mzfys6m
+    description: Operation of generated template document
+  status:
+    $ref: ./GeneratedTemplateDocumentStatus.yaml
+    x-stoplight:
+      id: 9x6mujaq801jg
+    description: Status of generated template document
+  variableValues:
+    type: object
+    x-stoplight:
+      id: nivf0auiqn2mi
+    description: Variable values of generated template document
+    additionalProperties:
+      x-stoplight:
+        id: o0u4ac6uzf4cl
+  generationRequestedAt:
+    type: object
+    $ref: ../DateTime.yaml
+    x-stoplight:
+      id: 2yqui4069hhh9
+    description: Generation request date of generated template document
+  links:
+    $ref: ../Link.yaml
+    x-stoplight:
+      id: x2x0468nqjl4e

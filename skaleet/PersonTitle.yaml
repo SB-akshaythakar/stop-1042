@@ -1,0 +1,10 @@
+title: PersonTitle
+x-stoplight:
+  id: 2cyakasvsrjtf
+description: Person title
+type: string
+enum:
+  - MR
+  - MS
+  - MRS
+example: MR

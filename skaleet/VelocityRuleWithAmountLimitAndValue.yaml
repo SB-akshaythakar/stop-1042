@@ -1,0 +1,17 @@
+title: VelocityRuleWithAmountLimitAndValue
+x-stoplight:
+  id: y1z7kuvgeo2qk
+allOf:
+  - $ref: ./VelocityRuleWithAmountLimit.yaml
+    x-stoplight:
+      id: xhp1gzqkuucte
+  - type: object
+    properties:
+      currentValue:
+        type: integer
+        example: 100
+        description: Current amount limit value for given Identity
+        x-stoplight:
+          id: td89oqwmykwdd
+    x-stoplight:
+      id: klcf70vxfadxu

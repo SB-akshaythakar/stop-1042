@@ -1,0 +1,66 @@
+title: CardLimits
+x-stoplight:
+  id: oljihler94f8t
+type: object
+description: Card's limits
+properties:
+  LIMIT_CASHOUT_DAY:
+    type: integer
+    example: 100
+    description: Cashout per day limit
+    x-stoplight:
+      id: oxxm968i0fp9q
+  LIMIT_CASHOUT_WEEK:
+    type: integer
+    example: 100
+    description: Cashout per week limit
+    x-stoplight:
+      id: d7wj2ilgprfxj
+  LIMIT_CASHOUT_MONTH:
+    type: integer
+    example: 100
+    description: Cashout per month limit
+    x-stoplight:
+      id: 3u2lokavvxqw2
+  LIMIT_CASHOUT_YEAR:
+    type: integer
+    example: 100
+    description: Cashout per year limit
+    x-stoplight:
+      id: 9w5yhgvsb8bbo
+  LIMIT_CASHOUT_ALL:
+    type: integer
+    example: 100
+    description: Total cashout limit
+    x-stoplight:
+      id: asphlu9qgusgy
+  LIMIT_PAYMENT_DAY:
+    type: integer
+    example: 100
+    description: Payment per day limit
+    x-stoplight:
+      id: 4mftus6m1jnq7
+  LIMIT_PAYMENT_WEEK:
+    type: integer
+    example: 100
+    description: Payment per week limit
+    x-stoplight:
+      id: gjmyqunq1c8bm
+  LIMIT_PAYMENT_MONTH:
+    type: integer
+    example: 100
+    description: Payment per month limit
+    x-stoplight:
+      id: 0xf9sb565o6lb
+  LIMIT_PAYMENT_YEAR:
+    type: integer
+    example: 100
+    description: Payment per year limit
+    x-stoplight:
+      id: 6jeiy7d2swthn
+  LIMIT_PAYMENT_ALL:
+    type: integer
+    example: 100
+    description: Total payment limit
+    x-stoplight:
+      id: tftv97oe5uh0k

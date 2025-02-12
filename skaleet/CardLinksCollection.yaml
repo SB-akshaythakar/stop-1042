@@ -1,0 +1,33 @@
+title: CardLinksCollection
+x-stoplight:
+  id: x5mdizcu8cvve
+type: array
+description: Card's available actions
+items:
+  type: object
+  properties:
+    rel:
+      type: string
+      description: Action identifier
+      enum:
+        - refabricateCard
+        - reissueCardCode
+        - opposeCard
+        - blockCard
+        - unblockCard
+        - activateCard
+        - activateCardWithCode
+        - updateCardFeatures
+        - updateCardLimits
+        - deactivateCard
+        - getOutstandings
+      x-stoplight:
+        id: fg5m3edipo9tx
+    href:
+      type: string
+      description: Action endpoint url
+      example: 'https://sandbox.skaleet.com/cards/94280/_actions/activate'
+      x-stoplight:
+        id: zqvza899ng5ak
+  x-stoplight:
+    id: yrgqtv2l2or20

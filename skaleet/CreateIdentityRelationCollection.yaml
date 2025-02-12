@@ -1,0 +1,34 @@
+title: CreateIdentityRelationCollection
+x-stoplight:
+  id: r2q4v0xkgeuot
+type: array
+description: |
+  Depending of the type of relation you want to create, provide only one of `toIdentityId` and `fromIdentity` fields.
+
+  The Identity to-be-created will be used for the empty side of the relation.
+items:
+  type: object
+  description: A relation between Identities
+  required:
+    - type
+  properties:
+    fromIdentityId:
+      type: string
+      example: '1'
+      description: Identity unique identifier
+      x-stoplight:
+        id: h4o9051jqzd3o
+    toIdentityId:
+      type: string
+      example: '1'
+      description: Identity unique identifier
+      x-stoplight:
+        id: cpyrn60247vec
+    nature:
+      type: string
+      description: Nature of the relation between Identities
+      example: BOARD_MEMBER
+      x-stoplight:
+        id: z4cabj5u480zn
+  x-stoplight:
+    id: cag4mt5ixgo1f

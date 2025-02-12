@@ -1,0 +1,22 @@
+title: IdentityUpdateRequest
+x-stoplight:
+  id: nkbor9fr63oln
+type: object
+description: Identity update form
+properties:
+  kyc:
+    $ref: ./Kyc.yaml
+    x-stoplight:
+      id: amgwnyops3jvx
+  externalId:
+    $ref: ./ExternalId.yaml
+    x-stoplight:
+      id: 9i0a02wkkneo4
+  entities:
+    type: array
+    items:
+      $ref: ./EntityCode.yaml
+      x-stoplight:
+        id: cg5rkxedi9n6z
+    x-stoplight:
+      id: n0gcvviafswyd

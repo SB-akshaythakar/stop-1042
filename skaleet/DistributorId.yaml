@@ -1,0 +1,6 @@
+title: DistributorId
+x-stoplight:
+  id: pqdgbfe8wbeno
+type: string
+description: Distributor identity Id
+example: '125'

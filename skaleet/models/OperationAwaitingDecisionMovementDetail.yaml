@@ -1,0 +1,17 @@
+title: OperationAwaitingDecisionMovementDetail
+x-stoplight:
+  id: k06q0h55iqtsw
+type: object
+description: Detail of the amounts from the operation awaiting decision
+required:
+  - label
+  - amount
+properties:
+  label:
+    type: string
+    x-stoplight:
+      id: 50y5p1wal8jrp
+  amount:
+    $ref: ../Amount.yaml
+    x-stoplight:
+      id: ipgy5qunsd9tr

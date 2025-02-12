@@ -1,0 +1,35 @@
+title: BlockingVelocityRule
+x-stoplight:
+  id: 7zxwt8ismdwru
+type: object
+required:
+  - identityId
+  - velocityBatchId
+  - velocityBatchLabel
+  - computedTotal
+  - velocityRule
+properties:
+  identityId:
+    $ref: ./ReadOnlyIdentityId.yaml
+    x-stoplight:
+      id: w7xfvulzfhbre
+  velocityBatchId:
+    $ref: ./VelocityBatchId.yaml
+    x-stoplight:
+      id: phu5mz3ewc1nb
+  velocityBatchLabel:
+    type: string
+    description: Velocity batch label
+    example: User velocity batch
+    x-stoplight:
+      id: qms4npidwqh8x
+  computedTotal:
+    type: integer
+    description: Computed limit value for the current transaction
+    example: 1000
+    x-stoplight:
+      id: pmit6nrh5ndnl
+  velocityRule:
+    $ref: ./VelocityRuleWithValue.yaml
+    x-stoplight:
+      id: 8t8op4obnbq5n

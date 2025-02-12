@@ -1,0 +1,9 @@
+title: CreationEntityCodes
+x-stoplight:
+  id: hkqq3bbn36u18
+type: array
+description: 'List of entity codes that will be allowed to use the new object. If none provided, it will default to the connected user''s allowed entities.'
+items:
+  $ref: ./EntityCode.yaml
+  x-stoplight:
+    id: qcyziv5smz78o

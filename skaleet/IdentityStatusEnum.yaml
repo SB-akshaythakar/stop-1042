@@ -1,0 +1,11 @@
+title: IdentityStatusEnum
+x-stoplight:
+  id: itdwdvrgpqiyt
+type: string
+enum:
+  - INITIATED
+  - PENDING
+  - OPENED
+  - BLOCKED
+  - CLOSED
+  - INIBLOCKED

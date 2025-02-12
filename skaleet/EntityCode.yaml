@@ -1,0 +1,8 @@
+title: EntityCode
+x-stoplight:
+  id: j918ekokivgk1
+type: string
+description: 'An entity code. Can contain capital letters, _, and numbers.'
+pattern: '^[A-Z0-9_]{1,64}$'
+minLength: 1
+maxLength: 64

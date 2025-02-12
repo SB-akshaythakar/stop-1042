@@ -1,0 +1,12 @@
+title: Periodicity
+x-stoplight:
+  id: ne92s49mmulrv
+type: string
+description: Available periodicities
+enum:
+  - HOUR
+  - WEEK
+  - DAY
+  - MONTH
+  - YEAR
+example: DAY
